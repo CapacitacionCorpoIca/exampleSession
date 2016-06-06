@@ -7,7 +7,8 @@
 angular.module('app', [
   'ionic',
   'app.controllers',
-  'app.services'
+  'app.services',
+  'ngStorage'
 ])
 
 .run(function($ionicPlatform) {
